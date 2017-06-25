@@ -11,7 +11,7 @@
 %as the lower entry.
 %
 %assignment of the lower left vertice. Use values between -10 and 0.
-lowerleftvertice=[-2
+lowerleftvertice=[-3
     -1];
 %assignment of the upper right vertice. Use values between 0 and 10.
 upperrightvertice=[1
@@ -24,7 +24,7 @@ v3=upperrightvertice;
 v4=[lowerleftvertice(1)
     upperrightvertice(2)];
 %definition of the rectangle
-rectangle=[v1 v2 v3 v4 v1];
+rectangle=[v1 v2 v3 v4 v1]
 %% Operation 2
 %Definition of a suitable plotting window
 %
